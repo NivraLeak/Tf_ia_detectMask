@@ -285,7 +285,7 @@ TBB==2021.4.0
 tblib == 1.7.0
 tensorboard == 2.7.0
 tensorboard-plugin-wit==1.8.0
-tensorflow==2.3.0
+tensorflow==2.7.0
 tensorflow-estimator == 2.7.0
 termcolor==1.1.0
 terminado==0.9.4
