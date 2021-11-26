@@ -1,4 +1,4 @@
-absl-py @ file:///C:/ci/absl-py_1623867339542/work
+absl-py==1.0.0
 aiohttp @ file:///C:/ci/aiohttp_1632750093640/work
 alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
 anaconda-client @ file:///C:/ci/anaconda-client_1635342752200/work
