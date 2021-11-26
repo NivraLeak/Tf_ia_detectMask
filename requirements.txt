@@ -8,7 +8,7 @@ anyio==3.4.0
 AnyQt==0.0.13
 appdirs==1.4.4
 argh==0.26.2
-argon2-cffi=21.1.0
+argon2-cffi==21.1.0
 arrow==0.13.1
 asn1crypto==1.4.0
 astor==0.8.1
