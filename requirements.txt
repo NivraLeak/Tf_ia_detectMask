@@ -41,7 +41,7 @@ CacheControl==0.12.10
 cachetools==4.2.4
 certifi==2021.10.8
 cffi==1.15.0
-chardet==2.0.3
+chardet==2.3.0
 charset-normalizer==2.0.8
 click==8.0.3
 cloudpickle==2.0.0
