@@ -55,7 +55,7 @@ conda-content-trust==0.1.2
 conda-pack==0.6.0
 contextlib2==21.6.0
 cookiecutter==1.7.3
-cryptography==0.1.8
+cryptography==36.0.0
 cycler==0.10.0
 Cython==0.29.24
 cytoolz==0.11.0
