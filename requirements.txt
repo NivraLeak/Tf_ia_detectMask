@@ -49,7 +49,7 @@ clyent==1.2.1
 colorama==0.4.4
 commonmark==0.9.1
 comtypes==1.1.10
-conda==4.10.3
+conda==3.0.6
 conda-build==3.21.6
 conda-content-trust==0.1.2
 conda-pack==0.6.0
