@@ -260,7 +260,7 @@ Send2Trash == 1.8.0
 serverfiles==0.3.1
 simplegeneric==0.8.1
 singledispatch == 3.7.0
-sip==4.19.13
+sip==6.4.0
 six == 1.16.0
 sniffio == 1.2.0
 snowballstemmer == 2.2.0
