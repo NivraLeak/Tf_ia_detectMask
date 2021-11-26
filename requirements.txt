@@ -251,7 +251,7 @@ rfc3986 == 1.5.0
 rope == 0.22.0
 rsa == 4.8
 Rtree == 0.9.7
-ruamel-yaml-conda==0.15.80
+ruamel-yaml-conda==0.15.8
 scikit-image==0.18.3
 scikit-learn == 1.0.1
 scikit-learn-intelex==2021.20210714.120609
