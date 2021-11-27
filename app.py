@@ -32,6 +32,8 @@ face_haar_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 app = Flask(__name__,static_folder='static',template_folder='templates')
 
+acurracy = 0.0
+
 camara = cv2.VideoCapture(0)
 camara.set(3, 1920)
 camara.set(4, 1080)
@@ -61,13 +63,15 @@ def gen_frame(begin):
                     print("PREDICTIONS", predictions)
                     # find max indexed array
                     max_index = np.argmax(predictions[0])
-
+                    print("Porcentaje", predictions[0][max_index] * 100)
+                    acurracy = predictions[0][max_index] * 100
+                    acurracy = round(acurracy, 2)
                     categories = ('incorrect', 'withMask', 'withoutMask')
                     predicted_category = categories[max_index]
                     print(predicted_category)
 
-                    cv2.putText(frame, predicted_category, (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-
+                    cv2.putText(frame, predicted_category + " " + str(acurracy), (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+                    #cv2.putText(frame, acurracy, (int(x), int(y)), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
                 #resized_img = cv2.resize(frame, (1000, 700))
                 #a=cv2.imshow('MASK Category', resized_img)
                 ret, img = cv2.imencode('.jpg', frame)
