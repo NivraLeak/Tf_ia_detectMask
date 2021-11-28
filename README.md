@@ -2,14 +2,15 @@
 
 ## Instalación de anadonda
 
-La recomendación es instalar miniconda descargando desde
+The recommendation is to install miniconda by downloading from
 [aquí](https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-Windows-x86_64.exe)
-e instalar con opciones por defecto
+and install with default options
 
-Si ya tiene instalado Anaconda, o prefiere usar Anaconda (versión más grande)
-descargue de
+
+If you already have Anaconda installed, or prefer to use Anaconda (larger version)
+download from
 [aquí](https://repo.anaconda.com/archive/Anaconda3-2021.05-Windows-x86_64.exe) e
-instalar con opciones por defecto.
+install with default options.
 
 ## 🏃‍♂️ Local Installation
 
